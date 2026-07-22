@@ -4,6 +4,8 @@ This simple project is a communication channel simulator. It demonstrates how to
 
 The system utilizes the concept of **deterministic pseudo-random generation** (seed/key-based), ensuring that the signal can only be decrypted if the receiver possesses the exact same credential as the transmitter.
 
+The signal.txt content is part of Fyodor Dostoevsky's book "White Nights".
+
 ---
 
 ## Concepts & Data Structures
@@ -30,9 +32,14 @@ The project is decoupled into modules with well-defined responsibilities:
 
 ## How to use
 
-1. Navigate to the project directory
-2. Run the main script:
+1. Clone this repository: Copy and paste this command on your destiny folder via cmd
+```bash
+  git clone https://github.com/f-masato-tanaka/custom-signal-shuffler
+```
+3. Run the main script at the terminal:
 ```bash
   python main.py
 ```
-3. Choose the seed value
+3. Choose the seed value.
+   
+If you press Enter instead of choosing a seed value it will execute the code with the standard key
